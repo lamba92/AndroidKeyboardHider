@@ -4,7 +4,7 @@ Commodity library to hide the keyboard in Android.
 
 Written in Kotlin with ❤️
 
-This method has been created from [this answer](https://stackoverflow.com/questions/1109022/close-hide-the-android-soft-keyboard/17789187#17789187) by [rmirabelle](https://stackoverflow.com/users/680583/rmirabelle)
+Created from [this answer](https://stackoverflow.com/questions/1109022/close-hide-the-android-soft-keyboard/17789187#17789187) by [rmirabelle](https://stackoverflow.com/users/680583/rmirabelle)
 
 ## Usage
 
@@ -34,8 +34,6 @@ class MyActivity : Activity() {
     
 }
 ```
-
-## Install
 
 ## Installing [![](https://jitpack.io/v/lamba92/AndroidKeyboardHider.svg)](https://jitpack.io/#lamba92/AndroidKeyboardHider)
 
