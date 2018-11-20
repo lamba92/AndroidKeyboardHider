@@ -1,4 +1,4 @@
-# Android Keyboard Hider [![Build Status](https://travis-ci.org/lamba92/AndroidKeyboarHider.svg?branch=master)](https://travis-ci.org/lamba92/AndroidKeyboarHider) [![](https://jitpack.io/v/lamba92/androidkeyboarhider.svg)](https://jitpack.io/#lamba92/androidkeyboarhider)
+# Android Keyboard Hider [![Build Status](https://travis-ci.org/lamba92/AndroidKeyboardHider.svg?branch=master)](https://travis-ci.org/lamba92/AndroidKeyboardHider) [![](https://jitpack.io/v/lamba92/AndroidKeyboardHider.svg)](https://jitpack.io/#lamba92/AndroidKeyboardHider)
 
 Commodity library to hide the keyboard in Android.
 
@@ -37,7 +37,7 @@ class MyActivity : Activity() {
 
 ## Install
 
-## Installing [![](https://jitpack.io/v/lamba92/androidkeyboarhider.svg)](https://jitpack.io/#lamba92/androidkeyboarhider)
+## Installing [![](https://jitpack.io/v/lamba92/AndroidKeyboardHider.svg)](https://jitpack.io/#lamba92/AndroidKeyboardHider)
 
 Add the [JitPack.io](http://jitpack.io) repository to the project `build.grade`:
 ```
