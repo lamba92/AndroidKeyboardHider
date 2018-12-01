@@ -17,6 +17,8 @@ pluginManagement {
                     useModule("com.android.tools.build:gradle:$androidGradlePluginVersion")
                 "org.jetbrains.kotlin.android", "org.jetbrains.kotlin.android.extensions" ->
                     useModule(kotlin("gradle-plugin", kotlinVersion))
+                "android-maven" ->
+                    useModule("com.github.dcendents:android-maven-gradle-plugin:2.1")
             }
         }
     }
