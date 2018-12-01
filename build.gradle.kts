@@ -7,6 +7,8 @@ plugins{
     maven
 }
 
+group = "com.github.lamba92"
+
 repositories {
     google()
     jcenter()
@@ -18,7 +20,7 @@ android {
         minSdkVersion(16)
         targetSdkVersion(28)
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.1.3"
     }
 }
 
