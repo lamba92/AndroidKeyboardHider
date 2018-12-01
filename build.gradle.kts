@@ -1,24 +1,31 @@
-buildscript {
+val kotlinVersion: String by project
 
-    val kotlinVersion:String by project
-    val androidGradlePluginVersion: String by project
+plugins{
+    id("com.android.library")
+    kotlin("android")
+    kotlin("android.extensions")
+    maven
+}
 
-    repositories {
-        google()
-        jcenter()
-    }
-    dependencies {
-        classpath("com.android.tools.build:gradle:$androidGradlePluginVersion")
-        classpath(kotlin("gradle-plugin", version = kotlinVersion))
+repositories {
+    google()
+    jcenter()
+}
+
+android {
+    compileSdkVersion(28)
+    defaultConfig {
+        minSdkVersion(16)
+        targetSdkVersion(28)
+        versionCode = 1
+        versionName = "1.0"
     }
 }
 
-allprojects {
-    repositories {
-        google()
-        jcenter()
-    }
+dependencies {
+    implementation(kotlin("stdlib-jdk8", kotlinVersion))
 }
+
 
 tasks.create<Delete>("clear") {
     delete(rootProject.buildDir)
