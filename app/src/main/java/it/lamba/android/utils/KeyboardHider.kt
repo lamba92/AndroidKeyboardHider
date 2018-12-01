@@ -36,4 +36,4 @@ fun hideKeyboardFrom(context: Context, focusView: View? = null) {
  * a view will be searched in the current context. If unable to recover the focused view nothing will be done.
  * @param focusView The view that currently has the focus. Default value of [focusView] is `null`.
  */
-fun Context.hideKeyboard(focusView: View) = hideKeyboardFrom(this, focusView)
+fun Context.hideKeyboard(focusView: View? = null) = hideKeyboardFrom(this, focusView)
