@@ -15,19 +15,18 @@ repositories {
 }
 
 android {
-    compileSdkVersion(28)
+    compileSdkVersion(29)
     defaultConfig {
         minSdkVersion(16)
-        targetSdkVersion(28)
+        targetSdkVersion(29)
         versionCode = 1
-        versionName = "1.1.3"
+        versionName = "1.1.4"
     }
 }
 
 dependencies {
     implementation(kotlin("stdlib-jdk8", kotlinVersion))
 }
-
 
 tasks.create<Delete>("clear") {
     delete(rootProject.buildDir)

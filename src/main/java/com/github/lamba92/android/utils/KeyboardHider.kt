@@ -1,6 +1,7 @@
 @file:JvmName("KeyboardHider")
+@file:Suppress("unused")
 
-package it.lamba.android.utils
+package com.github.lamba92.android.utils
 
 import android.app.Activity
 import android.app.Fragment
